@@ -1,4 +1,4 @@
-package com.firebase.androidchat;
+package com.techbus.androidchat.Adapter;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -6,10 +6,11 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.firebase.client.Query;
+import com.techbus.androidchat.Firebase.FirebaseListAdapter;
+import com.techbus.androidchat.Pojo.Chat;
+import com.techbus.androidchat.R;
 
 /**
- * @author greg
- * @since 6/21/13
  *
  * This class is an example of how to use FirebaseListAdapter. It uses the <code>Chat</code> class to encapsulate the
  * data for each individual chat message

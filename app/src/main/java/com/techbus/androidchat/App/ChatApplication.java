@@ -1,10 +1,9 @@
-package com.firebase.androidchat;
+package com.techbus.androidchat.App;
 
 import com.firebase.client.Firebase;
 
 /**
- * @author Jenny Tong (mimming)
- * @since 12/5/14
+ * @author Sravan
  *
  * Initialize Firebase with the application context. This must happen before the client is used.
  */

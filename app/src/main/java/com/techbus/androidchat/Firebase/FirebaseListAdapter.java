@@ -1,4 +1,4 @@
-package com.firebase.androidchat;
+package com.techbus.androidchat.Firebase;
 
 import android.app.Activity;
 import android.util.Log;
@@ -13,13 +13,9 @@ import com.firebase.client.FirebaseError;
 import com.firebase.client.Query;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 /**
- * @author greg
- * @since 6/21/13
  *
  * This class is a generic way of backing an Android ListView with a Firebase location.
  * It handles all of the child events at the given Firebase location. It marshals received data into the given
